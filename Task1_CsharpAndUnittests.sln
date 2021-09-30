@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1_CsharpAndUnittests", "Task1_CsharpAndUnittests\Task1_CsharpAndUnittests.csproj", "{CE234699-A2AA-4349-B894-859A06CA0422}"
+	ProjectSection(ProjectDependencies) = postProject
+		{196546F0-E91A-42EF-B3E0-209FD3CF5E6C} = {196546F0-E91A-42EF-B3E0-209FD3CF5E6C}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Football", "Football\Football.csproj", "{196546F0-E91A-42EF-B3E0-209FD3CF5E6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE234699-A2AA-4349-B894-859A06CA0422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE234699-A2AA-4349-B894-859A06CA0422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE234699-A2AA-4349-B894-859A06CA0422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE234699-A2AA-4349-B894-859A06CA0422}.Release|Any CPU.Build.0 = Release|Any CPU
+		{196546F0-E91A-42EF-B3E0-209FD3CF5E6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{196546F0-E91A-42EF-B3E0-209FD3CF5E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{196546F0-E91A-42EF-B3E0-209FD3CF5E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{196546F0-E91A-42EF-B3E0-209FD3CF5E6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA9B7D86-4773-4C2C-9C66-D63E3DCB3216}
+	EndGlobalSection
+EndGlobal
